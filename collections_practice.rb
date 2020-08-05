@@ -9,6 +9,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
+<<<<<<< HEAD
   array.sort do |a, b|
     a.length <=> b.length
   end
@@ -49,4 +50,9 @@ def add_s(array)
       (word + "s")
     end
   end 
+=======
+  array.sort do |array.length|
+    a <=> b
+    end
+>>>>>>> 2e9872bc67aa110fb5ddb5428cfc4326fdd8c3ba
 end 
